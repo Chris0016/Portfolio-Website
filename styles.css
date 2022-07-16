@@ -2,11 +2,16 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-	font-weight: bold !important;
+h1, .card-title {
+	font-weight: 800 !important;
 }
 
+
 .row {
+	margin-top: 30px;
+}
+
+.low-margin-top {
 	margin-top: 20px;
 }
 

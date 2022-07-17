@@ -2,11 +2,14 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+
 h1, .card-title {
 	font-weight: 800 !important;
 }
 
-
+iframe {
+	border-radius: 5px;
+}
 .row {
 	margin-top: 30px;
 }
@@ -14,6 +17,8 @@ h1, .card-title {
 .low-margin-top {
 	margin-top: 20px;
 }
+
+
 
 	/*Navigation bar*/
 
@@ -30,3 +35,19 @@ h1, .card-title {
 	 border-radius: 10px !important;
 
 }
+
+
+.modal-title {
+	text-align: center !important;
+	font-family: 'Oswald', sans-serif !important;
+}
+
+.modal-title hr {
+	margin-bottom: 20px;
+}
+
+
+.modal-close-container  {
+	margin-top: 20px;
+}
+

@@ -1,295 +1,484 @@
-<!DOCTYPE html> 
-<html> 
-	<head> 
-		<link rel="stylesheet" href="styles.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
 
-		<!-- bootstrap -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-		<!-- fonts -->
-			<!-- roboto -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
-			<!-- oswald -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jumbotron -->
+    <div
+      class="jumbotron-fluid"
+      style="
+        background-image: url(images/Page\ Intro.jpg);
+        opacity: 0.95;
+        min-height: 500px;
+      "
+    >
+      <br />
+      <br />
+      <br />
+      <h1 class="display-4 text-heavy text-white">Christopher Perez</h1>
+      <p class="lead text-white">
+        <br />
+        Computer Science Undergraduate Student at New Jersey City University
+      </p>
+      <hr class="my-4" style="background-color: white" />
+      <p class="text-white">
+        Interested in Web Development, Security, and Geographic Information
+        Systems.
+      </p>
+      <p class="lead">
+        <a class="btn btn-outline-light btn-lg" href="#" role="button"
+          >Learn more</a
+        >
+      </p>
+    </div>
 
-	</head> 
-	<body>
-		<!-- navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="#">Navbar</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Features</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Pricing</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link disabled" href="#">Disabled</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
+    <div class="container">
+      <div class="row low-margin-top">
+        <div class="col-12 text-center">
+          <h1 class="text-heavy">Top Projects</h1>
+          <hr />
+        </div>
+      </div>
 
-		<!-- jumbotron -->
-		<div class="jumbotron">
-		  <h1 class="display-4 text-heavy">Hello, world!</h1>
-		  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-		  <hr class="my-4">
-		  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-		  <p class="lead">
-		    <a class="btn btn-outline-dark btn-lg" href="#" role="button">Learn more</a>
-		  </p>
-		</div>
+      <!-- Top Projects Cards -->
+      <div class="row">
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Car Review Application</h5>
+              <p class="card-text text-secondary">
+                An interactive and user friendly Car-Review Application with an
+                extensive database of cars.
+              </p>
+              <a
+                href="#topProject2"
+                class="btn btn-outline-dark"
+                data-bs-toggle="modal"
+                >Preview</a
+              >
+              <a
+                class="btn btn-outline-dark"
+                href="https://github.com/Chris0016/Car-Review-Application"
+                target="_blank"
+              >
+                See Code</a
+              >
+            </div>
+          </div>
+        </div>
 
-		<div class="container">
+        <div class="col-4">
+          <div
+            class="card text-center text-white"
+            style="background-color: #080808"
+          >
+            <div class="card-body">
+              <h5 class="card-title">Online E-Commerce Store</h5>
+              <p class="card-text text-light">
+                A Fullstack Web App built using React.js, Spring, and MySQL to
+                create a modern online shopping platform.
+              </p>
+              <a
+                href="#topProject1"
+                class="btn btn-outline-light"
+                data-bs-toggle="modal"
+                >Preview</a
+              >
+              <a
+                class="btn btn-outline-light"
+                href="https://github.com/Chris0016/E-Commerce-Website"
+                target="_blank"
+              >
+                See Code</a
+              >
+            </div>
+          </div>
+        </div>
 
-			<div class="row low-margin-top"> 
-				<div class="col-12 text-center"> 
-					<h1 class="text-heavy"> Top Projects </h1>
-					<hr> 
-				</div> 
-			</div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Password Manager(In progress)</h5>
+              <p class="card-text text-secondary">
+                Spring Based app that implements a series of encryption and
+                hashing algorithms to keep passowrds secure.
+              </p>
+              <a
+                href="#topProject3"
+                class="btn btn-outline-dark"
+                data-bs-toggle="modal"
+                >Preview</a
+              >
+              <a
+                href="https://github.com/Chris0016/Password-Manager"
+                target="_blank"
+                class="btn btn-outline-dark"
+                >See Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
 
-			<!-- Top Projects Cards -->
-			<div class="row">
-			  
-			  <div class="col-4">
-			    <div class="card text-center">
-			      <div class="card-body">
-			        <h5 class="card-title">Online E-Commerce Store</h5>
-			        <p class="card-text text-secondary">A Fullstack Web App built using React.js, Spring, and MySQL.</p>
-			        <a href="#topProject1" class="btn btn-outline-dark" data-bs-toggle="modal">Preview</a>
-			        <a class="btn btn-outline-dark" href="https://github.com/Chris0016/E-Commerce-Website" target="_blank"> See Code</a>
-			      </div>
-			    </div>
-			  </div>
+      <!-- MODALS FOR TOP PROJECT CARDS hidden by default-->
+      <div>
+        <!-- modal 1 -->
 
-			  <div class="col-4">
-			    <div class="card text-center text-white bg-dark">
-			      <div class="card-body">
-			        <h5 class="card-title">Car Review Application</h5>
-			        <p class="card-text text-light">An interactive and user friendly Car-Review Application with an extensive database of cars.</p>
-			        <a href="#topProject2" class="btn btn-outline-light" data-bs-toggle="modal">Preview</a>
-			        <a class="btn btn-outline-light" href="https://github.com/Chris0016/Car-Review-Application" target="_blank"> See Code</a> 
-			      </div>
-			    </div>
-			  </div>
-
-
-			  <div class="col-4">
-			    <div class="card text-center">
-			      <div class="card-body">
-			        <h5 class="card-title">Special title treatment</h5>
-			        <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
-			        <a href="#topProject3" class="btn btn-outline-dark" data-bs-toggle="modal">Preview</a>
-			        <a href="#" class="btn btn-outline-dark ">See Code</a>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-
-			<!-- MODALS FOR TOP PROJECT CARDS hidden by default-->
-			<div> 
-				 <!-- modal 1 -->
-
-
-				    <div id="topProject1" class="modal fade bd-example-modal-lg " tabindex="-1">
-				        <div class="modal-dialog modal-lg">
-				            <div class="modal-content ">
-				                <!-- <div class="modal-header">
+        <div
+          id="topProject1"
+          class="modal fade bd-example-modal-lg"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <!-- <div class="modal-header">
 				                   
 				                    <button type="button" class="btn-outline-dark" data-bs-dismiss="modal" aria-label="close"></button>
 				                </div> -->
-				                <div class="modal-body container">
-				                	 <h3 class="modal-title text-center text-heavy">Fullstack E-Commerce Store</h3>
-				                	 <hr> 
+              <div class="modal-body container">
+                <h3 class="modal-title text-center text-heavy">
+                  Fullstack E-Commerce Store
+                </h3>
+                <hr />
 
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/q6y8bYZPqXA"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <p class="text-secondary low-margin-top">
+                  An online store built using React.js, Spring Framework, and
+                  MySQL. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
 
+                <div class="modal-close-container low-margin-top text-right">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <a
+                    class="btn btn-outline-dark"
+                    href="https://github.com/Chris0016/E-Commerce-Website"
+                    target="_blank"
+                  >
+                    See Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal 1-->
 
-				                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/q6y8bYZPqXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				                    <p class="text-secondary low-margin-top">An online store built using React.js, Spring Framework, and MySQL. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				                	
+        <!-- modal 2 -->
 
-
-				                   <div class="modal-close-container low-margin-top text-right">
-					                	<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
-					                   	<a class="btn btn-outline-dark" href="https://github.com/Chris0016/E-Commerce-Website" target="_blank"> See Code</a>
-				                 	</div> 
-				                </div>
-				            
-				            </div>
-				        </div>
-				    </div>
-			        <!-- modal 1-->
-
-
-			        <!-- modal 2 -->
-
-				    <div id="topProject2" class="modal fade bd-example-modal-lg " tabindex="-1">
-				        <div class="modal-dialog modal-lg">
-				            <div class="modal-content ">
-				                <!-- <div class="modal-header">
+        <div
+          id="topProject2"
+          class="modal fade bd-example-modal-lg"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <!-- <div class="modal-header">
 				                   
 				                    <button type="button" class="btn-outline-dark" data-bs-dismiss="modal" aria-label="close"></button>
 				                </div> -->
-				                <div class="modal-body container">
-				                	 <h3 class="modal-title text-center text-heavy">Car Review Application</h3>
-				                	 <hr> 
+              <div class="modal-body container">
+                <h3 class="modal-title text-center text-heavy">
+                  Car Review Application
+                </h3>
+                <hr />
 
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/os72U-fJap4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <p class="text-secondary low-margin-top">
+                  A JavaFX cross-platform application. Lorem ipsum dolor sit
+                  amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat.
+                </p>
 
+                <div class="modal-close-container low-margin-top text-right">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <a
+                    class="btn btn-outline-dark"
+                    href="https://github.com/Chris0016/Car-Review-Application"
+                    target="_blank"
+                  >
+                    See Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-				                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/os72U-fJap4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				                    <p class="text-secondary low-margin-top">A JavaFX cross-platform application. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				                	
+        <!-- modal 2 -->
 
+        <!-- modal 3-->
 
-				                   <div class="modal-close-container low-margin-top text-right">
-					                	<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
-					                     <a class="btn btn-outline-dark" href="https://github.com/Chris0016/Car-Review-Application" target="_blank"> See Code</a> 
-				                 	</div> 
-				                </div>
-				            
-				            </div>
-				        </div>
-				    </div>
-
-			        <!-- modal 2 -->
-
-
-			        <!-- modal 3-->
-
-				    <div id="topProject3" class="modal fade bd-example-modal-lg " tabindex="-1">
-				        <div class="modal-dialog modal-lg">
-				            <div class="modal-content ">
-				                <!-- <div class="modal-header">
+        <div
+          id="topProject3"
+          class="modal fade bd-example-modal-lg"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <!-- <div class="modal-header">
 				                   
 				                    <button type="button" class="btn-outline-dark" data-bs-dismiss="modal" aria-label="close"></button>
 				                </div> -->
-				                <div class="modal-body container">
-				                	 <h3 class="modal-title text-center text-heavy">Car Review Application</h3>
-				                	 <hr> 
+              <div class="modal-body container">
+                <h3 class="modal-title text-center text-heavy">
+                  Password Manager
+                </h3>
+                <hr />
 
+                <!-- <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/os72U-fJap4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe> -->
+                <p class="text-secondary low-margin-top">
+                  A Password Manager built using Spring and Thymeleaf. The main
+                  goal of this application is security. To accomplish a high
+                  fidelity level of security the application makes use of AES
+                  encryption as well hashing algorithmns to keep data safe.
+                </p>
 
+                <div class="modal-close-container low-margin-top text-right">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    See More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-				                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/os72U-fJap4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				                    <p class="text-secondary low-margin-top">An online store built using React.js, Spring Framework, and MySQL. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				                	
+        <!-- modal 3 -->
+      </div>
 
+      <!-- MODALS FOR TOP PROJECT CARDS -->
 
-				                   <div class="modal-close-container low-margin-top text-right">
-					                	<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
-					                    <button type="button" class="btn btn-outline-dark">See More</button>
-				                 	</div> 
-				                </div>
-				            
-				            </div>
-				        </div>
-				    </div>
+      <!-- Java Development Projects -->
 
-			        <!-- modal 3 -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <!-- <h1 class="text-heavy">Development</h1> -->
+          <hr />
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Wordle</h5>
+              <p class="card-text text-muted">
+                A JavaFX implementation of "Wordle" as a cross-platform
+                application.
+              </p>
+              <a
+                href="https://github.com/Chris0016/javafx-wordle"
+                target="_blank"
+                class="btn btn-outline-dark"
+                >View Application</a
+              >
+            </div>
+          </div>
+        </div>
 
+        <div class="col-4">
+          <div class="card text-center">
+            <!-- text-white bg-dark ?-->
+            <div class="card-body">
+              <h5 class="card-title">Password Manager</h5>
+              <p class="card-text text-muted">
+                No Trust? A secure password manager for all your services.
+              </p>
+              <a
+                href="https://github.com/Chris0016/JavaFX-Password-Manager"
+                target="_blank"
+                class="btn btn-outline-dark"
+                >View Application</a
+              >
+            </div>
+          </div>
+        </div>
 
-			</div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Tic-Tac-Toe</h5>
+              <p class="card-text text-muted">
+                Implementation of the classic Tic-Tac-Toe game with JavaFX as an
+                application.
+              </p>
+              <a
+                href="https://github.com/Chris0016/javafx-tictactoe"
+                target="_blank"
+                class="btn btn-outline-dark"
+                >View Application</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
 
-			<!-- MODALS FOR TOP PROJECT CARDS -->
+      <div class="row">
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Database Automation Tool</h5>
+              <p class="card-text text-muted">
+                A handy application to quickly populate a database with pseudo
+                random values.
+              </p>
+              <a
+                href="https://github.com/Chris0016/Database-Automation-Tool"
+                target="_blank"
+                class="btn btn-outline-dark"
+                >View Application</a
+              >
+            </div>
+          </div>
+        </div>
 
+        <div class="col-4">
+          <div class="card text-center">
+            <!-- text-white bg-dark ?-->
+            <div class="card-body">
+              <h5 class="card-title">Floyd's Shortest Path Algorithm</h5>
+              <p class="card-text text-muted">
+                Exploration of graph theory with Floyd's algorithm.
+              </p>
+              <a
+                href="https://github.com/Chris0016/Floyds-Shortest-Path-Algorithm"
+                target="_blank"
+                class="btn btn-outline-dark"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
 
-			<!-- Web Development Projects -->
-			 
-			<div class="row"> 
-				<div class="col-12 text-center"> 
-					<h1 class="text-heavy"> Web Development </h1>
-					<hr> 
-				</div> 
-			</div>
-
-
-			<div class="row"> 
-
-				<div class="col-4">
-				    <div class="card text-center">
-				      <div class="card-body">
-				        <h5 class="card-title">Special title treatment</h5>
-				        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-				        <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-				      </div>
-				    </div>
-			    </div>
-
-			  <div class="col-4">
-			    <div class="card text-center "> <!-- text-white bg-dark ?-->
-			      <div class="card-body">
-			        <h5 class="card-title">Special title treatment</h5>
-			        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-			        <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-			      </div>
-			    </div>
-			  </div>
-
-
-			  <div class="col-4">
-			    <div class="card text-center">
-			      <div class="card-body">
-			        <h5 class="card-title">Special title treatment</h5>
-			        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-			        <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-
-			<div class="row"> 
-
-				<div class="col-4">
-				    <div class="card text-center">
-				      <div class="card-body">
-				        <h5 class="card-title">Special title treatment</h5>
-				        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-				        <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-				      </div>
-				    </div>
-			    </div>
-
-			  <div class="col-4">
-			    <div class="card text-center "> <!-- text-white bg-dark ?-->
-			      <div class="card-body">
-			        <h5 class="card-title">Special title treatment</h5>
-			        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-			        <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-			      </div>
-			    </div>
-			  </div>
-
-
-			  <div class="col-4">
-			    <div class="card text-center">
-			      <div class="card-body">
-			        <h5 class="card-title">Special title treatment</h5>
-			        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-			        <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-
-		</div>
-		<script src="script.js"></script>
-	</body>
-</html
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Car Review Application</h5>
+              <p class="card-text text-muted">
+                A user friendly Car-Review Application with an extensive
+                database of cars.
+              </p>
+              <a
+                href="https://github.com/Chris0016/Car-Review-Application"
+                class="btn btn-outline-dark"
+                >View Application</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

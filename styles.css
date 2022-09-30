@@ -1,53 +1,48 @@
 * {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-
-h1, .card-title {
-	font-weight: 800 !important;
+h1,
+.card-title {
+  font-weight: 800 !important;
 }
 
 iframe {
-	border-radius: 5px;
+  border-radius: 5px;
 }
 .row {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .low-margin-top {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
+/*Navigation bar*/
 
-
-	/*Navigation bar*/
-
-
-
- 	/*Jumbotron*/
+/*Jumbotron*/
 .jumbotron {
-
 }
 
- 	/*Cards*/
+/*Cards*/
 .card {
-	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	 border-radius: 10px !important;
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px !important;
 }
 
+.blck-bg {
+  background-color: #080808 !important;
+}
 
 .modal-title {
-	text-align: center !important;
-	font-family: 'Oswald', sans-serif !important;
+  text-align: center !important;
+  font-family: "Oswald", sans-serif !important;
 }
 
 .modal-title hr {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-
-.modal-close-container  {
-	margin-top: 20px;
+.modal-close-container {
+  margin-top: 20px;
 }
-
